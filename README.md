@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Charis Conrado, ingeniería en sistemas y ciberseguridad" width="100%"/>
+<img src="./banner.svg" alt="Charis, su zorra Canela y el espíritu Musgo en un bosque al atardecer" width="100%"/>
 
 </div>
 
@@ -15,6 +15,16 @@ He aprendido desarrollo de software y ahora estoy cruzando la puerta hacia el mu
 - 🏡 Base: desarrollo de software
 - 🔭 Explorando ahora: ciberseguridad, redes, Linux y pentesting
 - 🌱 Próximamente aquí: laboratorios, writeups y proyectos
+
+<img src="./divider.svg" alt="" width="100%"/>
+
+## 🍃 Los habitantes del bosque
+
+| | Quién es | Qué hace por aquí |
+|---|---|---|
+| 🧑‍💻 **Charis** | Una aprendiz con morral, laptop y mucha curiosidad | Estudia, rompe cosas en laboratorios y aprende a protegerlas |
+| 🦊 **Canela** | Una zorra curiosa que huele las puertas mal cerradas | Representa al **Red Team**: pensar como atacante |
+| 🌰 **Musgo** | Un espíritu bellota que vigila con su linterna | Representa al **Blue Team**: ver, detectar y responder |
 
 <img src="./divider.svg" alt="" width="100%"/>
 
@@ -68,4 +78,4 @@ y cambia ChamecoSec si tu usuario es otro:
 - [HackTheBox](https://app.hackthebox.com/users/tu-id)
 -->
 
-<img src="./footer.svg" alt="Gracias por pasar por mi rincón del bosque" width="100%"/>
+<img src="./footer.svg" alt="Una casita en el árbol, una zorra dormida y un espíritu bellota con linterna" width="100%"/>
