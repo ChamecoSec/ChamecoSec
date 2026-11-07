@@ -18,16 +18,6 @@ He aprendido desarrollo de software y ahora estoy cruzando la puerta hacia el mu
 
 <img src="./divider.svg" alt="" width="100%"/>
 
-## 🍃 Los habitantes del bosque
-
-| | Quién es | Qué hace por aquí |
-|---|---|---|
-| 🧑‍💻 **Charis** | Una aprendiz con morral, laptop y mucha curiosidad | Estudia, rompe cosas en laboratorios y aprende a protegerlas |
-| 🦊 **Canela** | Una zorra curiosa que huele las puertas mal cerradas | Representa al **Red Team**: pensar como atacante |
-| 🌰 **Musgo** | Un espíritu bellota que vigila con su linterna | Representa al **Blue Team**: ver, detectar y responder |
-
-<img src="./divider.svg" alt="" width="100%"/>
-
 ## 🗺️ Mi mapa de viaje
 
 | Rama | Qué me atrae |
