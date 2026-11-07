@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 320" width="100%" role="img" aria-label="Charis Conrado, ingeniería en sistemas y ciberseguridad">
+  <title>Charis Conrado</title>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="s1"/>
+      <stop offset="1" class="s2"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="900" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    :root{--s1:#86cdea;--s2:#fdecc8;--sun:#fff6bf;--cloud:#ffffff;--h1:#a6d68f;--h2:#74b873;--h3:#3f8f5a;--ink:#1d3b3a;--sub:#2f5d5a;--leaf:#2f7d52;--star:0;--glow:#ffcf6b;--win:#fff0b3}
+    @media (prefers-color-scheme: dark){
+      :root{--s1:#0a1330;--s2:#38477f;--sun:#f2efd0;--cloud:#6b7cab;--h1:#2f5f4d;--h2:#214a3b;--h3:#143329;--ink:#f6f1dc;--sub:#b9d8cf;--leaf:#7fe0a8;--star:1;--glow:#ffd36e;--win:#ffe08a}
+    }
+    .s1{stop-color:var(--s1)} .s2{stop-color:var(--s2)}
+    .sun{fill:var(--sun)} .cloud{fill:var(--cloud);opacity:.92}
+    .h1{fill:var(--h1)} .h2{fill:var(--h2)} .h3{fill:var(--h3)}
+    .ink{fill:var(--ink);font-family:Georgia,'Times New Roman',serif}
+    .sub{fill:var(--sub);font-family:Georgia,'Times New Roman',serif;font-style:italic}
+    .leaf{fill:var(--leaf);font-family:'Courier New',monospace;font-weight:bold}
+    .star{fill:#fff;opacity:0}
+    @media (prefers-color-scheme: dark){.star{animation:tw 3s ease-in-out infinite}}
+    @keyframes tw{0%,100%{opacity:.15}50%{opacity:1}}
+    .c1{animation:drift 60s linear infinite;animation-delay:-20s}
+    .c2{animation:drift 85s linear infinite;animation-delay:-60s}
+    .c3{animation:drift 45s linear infinite;animation-delay:-5s}
+    @keyframes drift{from{transform:translateX(-260px)}to{transform:translateX(1160px)}}
+    .float{animation:float 5s ease-in-out infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+    .fall{animation:fall 9s linear infinite;opacity:0}
+    @keyframes fall{0%{transform:translate(0,-20px) rotate(0);opacity:0}10%{opacity:.85}90%{opacity:.85}100%{transform:translate(60px,340px) rotate(200deg);opacity:0}}
+    .t{opacity:0;animation:cyc 12s infinite}
+    .t2{animation-delay:4s} .t3{animation-delay:8s}
+    @keyframes cyc{0%{opacity:0}4%{opacity:1}29%{opacity:1}33%{opacity:0}100%{opacity:0}}
+    .glow{animation:glow 3s ease-in-out infinite}
+    @keyframes glow{0%,100%{opacity:.6}50%{opacity:1}}
+    .sway{transform-origin:50% 100%;animation:sway 6s ease-in-out infinite}
+    @keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="320" fill="url(#sky)"/>
+
+    <!-- estrellas (solo modo oscuro) -->
+    <g>
+      <circle class="star" cx="80" cy="40" r="1.6" style="animation-delay:0s"/>
+      <circle class="star" cx="190" cy="85" r="1.2" style="animation-delay:.8s"/>
+      <circle class="star" cx="310" cy="30" r="1.8" style="animation-delay:1.4s"/>
+      <circle class="star" cx="470" cy="60" r="1.3" style="animation-delay:.4s"/>
+      <circle class="star" cx="600" cy="28" r="1.7" style="animation-delay:2s"/>
+      <circle class="star" cx="700" cy="90" r="1.2" style="animation-delay:1.1s"/>
+      <circle class="star" cx="840" cy="45" r="1.5" style="animation-delay:1.8s"/>
+      <circle class="star" cx="760" cy="20" r="1.1" style="animation-delay:.6s"/>
+    </g>
+
+    <!-- sol / luna -->
+    <circle class="sun glow" cx="740" cy="78" r="34"/>
+
+    <!-- nubes -->
+    <g class="c1"><g class="cloud"><ellipse cx="0" cy="70" rx="46" ry="16"/><ellipse cx="-24" cy="62" rx="24" ry="16"/><ellipse cx="22" cy="58" rx="28" ry="18"/></g></g>
+    <g class="c2"><g class="cloud" transform="translate(0,45)"><ellipse cx="0" cy="70" rx="62" ry="18"/><ellipse cx="-30" cy="60" rx="30" ry="18"/><ellipse cx="28" cy="55" rx="36" ry="22"/></g></g>
+    <g class="c3"><g class="cloud" transform="translate(0,-30) scale(.7)"><ellipse cx="0" cy="70" rx="46" ry="16"/><ellipse cx="-24" cy="62" rx="24" ry="16"/><ellipse cx="22" cy="58" rx="28" ry="18"/></g></g>
+
+    <!-- colinas -->
+    <path class="h1" d="M0 230 Q150 170 320 215 T640 205 T900 200 V320 H0Z"/>
+    <path class="h2" d="M0 258 Q200 205 400 245 T780 240 T900 236 V320 H0Z"/>
+    <path class="h3" d="M0 290 Q220 255 450 285 T900 275 V320 H0Z"/>
+
+    <!-- casita en la colina con ventana encendida -->
+    <g transform="translate(790,176)">
+      <rect x="0" y="22" width="44" height="30" fill="#b8805a"/>
+      <polygon points="-6,24 22,2 50,24" fill="#c9503f"/>
+      <rect x="16" y="32" width="12" height="12" class="glow" style="fill:var(--win)"/>
+      <rect x="35" y="6" width="6" height="14" fill="#8a5a3c"/>
+    </g>
+
+    <!-- árboles -->
+    <g class="sway" style="transform-origin:90px 250px">
+      <rect x="86" y="212" width="8" height="40" fill="#6b4a33"/>
+      <circle cx="90" cy="200" r="26" class="h3"/>
+      <circle cx="74" cy="214" r="18" class="h3"/>
+      <circle cx="108" cy="214" r="18" class="h3"/>
+    </g>
+
+    <!-- escudo flotante con cerradura -->
+    <g class="float" transform="translate(120,96)">
+      <path d="M0 0 L38 -14 L76 0 V38 C76 66 38 84 38 84 C38 84 0 66 0 38Z" fill="#3aa57a" opacity=".92"/>
+      <path d="M0 0 L38 -14 L76 0 V38 C76 66 38 84 38 84 C38 84 0 66 0 38Z" fill="none" stroke="#fff" stroke-width="2.5" opacity=".75"/>
+      <rect x="26" y="34" width="24" height="20" rx="3" fill="#fff"/>
+      <path d="M30 34 V27 a8 8 0 0 1 16 0 V34" fill="none" stroke="#fff" stroke-width="4"/>
+      <circle cx="38" cy="43" r="3" fill="#3aa57a"/>
+    </g>
+
+    <!-- hojas / bits cayendo -->
+    <g>
+      <text class="leaf fall" x="250" y="0" font-size="16" style="animation-delay:0s">01</text>
+      <text class="leaf fall" x="360" y="0" font-size="14" style="animation-delay:2.2s">10</text>
+      <text class="leaf fall" x="520" y="0" font-size="18" style="animation-delay:4.5s">{ }</text>
+      <text class="leaf fall" x="620" y="0" font-size="15" style="animation-delay:1.3s">0x</text>
+      <text class="leaf fall" x="700" y="0" font-size="14" style="animation-delay:6s">11</text>
+      <text class="leaf fall" x="180" y="0" font-size="15" style="animation-delay:5.4s">//</text>
+      <text class="leaf fall" x="450" y="0" font-size="14" style="animation-delay:7.3s">&gt;_</text>
+    </g>
+
+    <!-- textos -->
+    <text class="ink" x="450" y="138" font-size="50" text-anchor="middle">Charis Conrado</text>
+    <text class="sub t" x="450" y="182" font-size="20" text-anchor="middle">Estudiante de Ingeniería en Sistemas</text>
+    <text class="sub t t2" x="450" y="182" font-size="20" text-anchor="middle">Dando mis primeros pasos en ciberseguridad</text>
+    <text class="sub t t3" x="450" y="182" font-size="20" text-anchor="middle">Aprendiendo a proteger lo que otros construyen</text>
+  </g>
+</svg>

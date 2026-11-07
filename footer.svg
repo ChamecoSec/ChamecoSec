@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 200" width="100%" role="img" aria-label="Luciérnagas sobre el bosque al anochecer">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" class="a"/><stop offset="1" class="b"/>
+    </linearGradient>
+    <clipPath id="f"><rect width="900" height="200" rx="18"/></clipPath>
+  </defs>
+  <style>
+    :root{--a:#f7d9a8;--b:#f2a98b;--t1:#2c6b4a;--t2:#1f5139;--ink:#3a2a2a;--fly:#e0a526}
+    @media (prefers-color-scheme: dark){:root{--a:#101c3d;--b:#27345f;--t1:#1c4a38;--t2:#123226;--ink:#f6f1dc;--fly:#ffe27a}}
+    .a{stop-color:var(--a)} .b{stop-color:var(--b)}
+    .t1{fill:var(--t1)} .t2{fill:var(--t2)}
+    .msg{fill:var(--ink);font-family:Georgia,'Times New Roman',serif;font-style:italic}
+    .fly{fill:var(--fly);animation:blink 3s ease-in-out infinite, wander 9s ease-in-out infinite}
+    @keyframes blink{0%,100%{opacity:.15}50%{opacity:1}}
+    @keyframes wander{0%,100%{transform:translate(0,0)}33%{transform:translate(14px,-12px)}66%{transform:translate(-10px,-6px)}}
+    .lock{animation:bob 4s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+  </style>
+  <g clip-path="url(#f)">
+    <rect width="900" height="200" fill="url(#g)"/>
+    <path class="t1" d="M0 150 L40 90 L80 150 L120 70 L165 150 L210 100 L250 150 L300 80 L345 150 L400 95 L450 150 L505 75 L550 150 L600 100 L650 150 L700 70 L745 150 L800 95 L850 150 L900 110 V200 H0Z"/>
+    <path class="t2" d="M0 180 L50 130 L100 180 L160 120 L215 180 L280 135 L340 180 L410 125 L470 180 L540 130 L600 180 L670 120 L730 180 L800 135 L860 180 L900 150 V200 H0Z"/>
+    <g class="lock" transform="translate(60,48)">
+      <rect x="0" y="14" width="26" height="20" rx="3" fill="#3aa57a"/>
+      <path d="M5 14 V9 a8 8 0 0 1 16 0 V14" fill="none" stroke="#3aa57a" stroke-width="4"/>
+    </g>
+    <g class="lock" transform="translate(815,40)" style="animation-delay:-2s">
+      <rect x="0" y="14" width="26" height="20" rx="3" fill="#3aa57a"/>
+      <path d="M5 14 V9 a8 8 0 0 1 16 0 V14" fill="none" stroke="#3aa57a" stroke-width="4"/>
+    </g>
+    <text class="msg" x="450" y="92" font-size="22" text-anchor="middle">Gracias por pasar por mi rincón del bosque 🍃</text>
+    <text class="msg" x="450" y="122" font-size="16" text-anchor="middle" opacity=".85">Cada día aprendo un poco más a cuidar el camino.</text>
+    <circle class="fly" cx="130" cy="120" r="3.2"/>
+    <circle class="fly" cx="260" cy="70" r="2.6" style="animation-delay:1s,2s"/>
+    <circle class="fly" cx="360" cy="140" r="3" style="animation-delay:2s,1s"/>
+    <circle class="fly" cx="560" cy="60" r="2.8" style="animation-delay:.5s,3s"/>
+    <circle class="fly" cx="650" cy="130" r="3.2" style="animation-delay:1.5s,4s"/>
+    <circle class="fly" cx="760" cy="85" r="2.6" style="animation-delay:2.5s,5s"/>
+  </g>
+</svg>
